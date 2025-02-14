@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .favo li:hover{
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2 style="font-size: 24px;">User Menu</h2>
+            <ul class="favo">
+                <li><a href="index.html"><img src="images/p.png" alt="Profile" class="Logo">Profile</a></li>
+                <li><a href="message.html"><img src="images/me.png" alt="Message" class="Logo"> Messages</a></li>
+                <li><a href="matcher.html"><img src="images/h1.png" alt="Matcher" class="Logo"> Matcher</a></li>
+                <li><a href="favorites.html"><img src="images/f.png" alt="Favorites" class="Logo"> Favorites</a></li> 
+                <li><a href="visitor.html"><img src="images/v.png" alt="Visitor" class="Logo"> Visitors</a></li>
+                <li><a href="#"><img src="images/c.png" alt="Recently Visited" class="Logo"> Recently Visited</a></li></ul>
+        </aside>
+        <main class="content">
+            <center>
+                <!-- <img src="images/like.png" alt="Heart" class="match-pic" > -->
+                <button class="mod">😍Favorites😍</button>
+                <div class="favorite">
+                    <img src="images/cc.jpg" alt="Favorite 1" class="match-pic">
+                    <p><strong>You are the one i'm looking for.</strong></p>
+                    <button class="remove-btn">Remove</button>
+                </div>
+                <div class="favorite">
+                    <img src="images/uu.jpg" alt="Favorite 2" class="match-pic">
+                    <p><strong>I loved your profile, Let's connect.</strong></p>
+                    <button class="remove-btn">Remove</button>
+                    <div class="favorite">
+                        <img src="images/dd.jpg" alt="Favorite 2" class="match-pic">
+                        <p><strong>You have a great vibe in your pictures.</strong></p>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                    <div class="favorite">
+                        <img src="images/cc.jpg" alt="Favorite 1" class="match-pic">
+                        <p><strong>I loved your profile, Let's connect.</strong></p>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                </div>
+            </center>
+        </main>
+    </div>
+</body>
+</html>
